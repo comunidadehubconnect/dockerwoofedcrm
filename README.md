@@ -96,7 +96,7 @@ version: '3.7'
 
 services:
   woofedcrm:
-    image: douglara/woofedcrm:development-c85cdfdd71bc0736e84bb29051aab16978d8c687
+    image: douglara/woofedcrm:development-4f2ba85549a8e897159f17d87d67f86693166ebb
     command: bundle exec rails s -p 3000 -b 0.0.0.0
     networks:
       - sua_rede
