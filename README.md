@@ -142,7 +142,7 @@ services:
       labels:
         - "traefik.enable=true"
         - "traefik.docker.network=ecosystem_network"
-        - "traefik.http.routers.portainer.rule=Host(`portainer.cwmkt.com.br`)"
+        - "traefik.http.routers.portainer.rule=Host(`painel.seudominio.com.br`)"
         - "traefik.http.routers.portainer.entrypoints=websecure"
         - "traefik.http.routers.portainer.priority=1"
         - "traefik.http.routers.portainer.tls.certresolver=letsencryptresolver"
