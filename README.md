@@ -326,6 +326,8 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - ACTIVE_STORAGE_SERVICE=local
       - RAILS_LOG_LEVEL=debug
+      - DEFAULT_TIMEZONE=Brasilia
+
     deploy:
       mode: replicated
       replicas: 1
@@ -364,6 +366,7 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - ACTIVE_STORAGE_SERVICE=local
       - RAILS_LOG_LEVEL=debug
+      - DEFAULT_TIMEZONE=Brasilia
     deploy:
       mode: replicated
       replicas: 1
@@ -391,6 +394,7 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - ACTIVE_STORAGE_SERVICE=local
       - RAILS_LOG_LEVEL=debug
+      - DEFAULT_TIMEZONE=Brasilia
     deploy:
       mode: replicated
       replicas: 1
